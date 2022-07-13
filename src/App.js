@@ -8,7 +8,6 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Navigation/>}>
         <Route index element={<Home />}></Route>
-        
         <Route path="shop" element={<Shop />}></Route>
       </Route>
     </Routes>
