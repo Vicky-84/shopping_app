@@ -22,6 +22,7 @@ const firebaseConfig = {
 
   export const auth = getAuth();
   export const SignInWithGooglePopup = () => signInWithPopup(auth, provider)
+  export const SignInWithGoogleRedirect = () => signInWithRedirect(auth, provider)
   export const db = getFirestore();
   
   export const createUserDocFromAuth = async (userAuth) => {
